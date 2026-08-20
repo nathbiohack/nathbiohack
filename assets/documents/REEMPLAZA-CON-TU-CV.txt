@@ -1,0 +1,9 @@
+REEMPLAZA ESTE ARCHIVO CON TU CURRÍCULUM
+
+1. Exporta tu currículum como PDF.
+2. Guárdalo en esta carpeta con el nombre cv.pdf.
+3. Abre index.html y reemplaza las dos apariciones de:
+   assets/documents/REEMPLAZA-CON-TU-CV.txt
+   por:
+   assets/documents/cv.pdf
+4. Comprueba que los botones “Descargar CV” funcionen antes de publicar.
