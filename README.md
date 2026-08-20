@@ -99,6 +99,514 @@ Cada card repite la misma estructura editable:
 
 ## Publicar en GitHub Pages
 
+# ✨ Editar esta plantilla con Claude, Codex u otro asistente de código
+
+Si no sabes HTML o CSS, puedes utilizar un asistente de programación como **Claude Code, Codex, Cursor o GitHub Copilot** para personalizar esta plantilla.
+
+Abre la carpeta completa del proyecto en la herramienta que quieras utilizar y pega el siguiente prompt.
+
+---
+
+## Prompt para empezar a personalizar tu website
+
+### Copia este prompt
+
+```text
+Quiero que me ayudes a personalizar este portfolio website.
+
+Antes de modificar código, revisa completamente los archivos del proyecto, especialmente:
+
+- index.html
+- style.css
+- assets/
+
+IMPORTANTE:
+
+No quiero que reconstruyas el website desde cero.
+
+Quiero conservar la estructura general, responsive design, componentes, navegación y estilo visual existente.
+
+Tu trabajo será ayudarme a adaptar esta plantilla a mi perfil.
+
+Primero analiza el website y explícame brevemente:
+
+1. Qué secciones existen actualmente.
+2. Qué contenido debo reemplazar.
+3. Qué imágenes o archivos debo cambiar.
+4. Qué enlaces debo actualizar.
+5. Qué información necesitas de mí antes de editarlo.
+
+Después hazme preguntas para recopilar mi información.
+
+Necesito definir:
+
+NOMBRE
+Mi nombre completo.
+
+OBJETIVO DEL WEBSITE
+Por ejemplo:
+- conseguir un internship
+- aplicar a un trabajo
+- aplicar a un PhD
+- mostrar proyectos de investigación
+- crear un portfolio de diseño
+- mostrar proyectos de software
+
+PERFIL
+Mi carrera, profesión o área principal.
+
+3–5 KEYWORDS
+Palabras que definan mi perfil profesional.
+
+Ejemplos:
+Bioengineering · Medical AI · Computational Science
+
+Data Science · Economics · Policy
+
+UX Design · Product · Research
+
+HEADLINE
+Una frase corta de aproximadamente 5–12 palabras que explique qué hago o qué tipo de problemas quiero resolver.
+
+INTRODUCTION
+Una descripción breve de aproximadamente 30–50 palabras.
+
+ABOUT
+Una descripción de aproximadamente 50–100 palabras explicando:
+- quién soy
+- mi formación
+- mis principales áreas de interés
+- qué problemas me interesa resolver
+- hacia dónde quiero orientar mi carrera
+
+EDUCATION
+Para cada formación:
+- año inicial y final
+- grado o programa
+- universidad o institución
+- ciudad y país
+- especialización, tesis o información relevante si corresponde
+
+PROJECTS
+Seleccionaremos entre 3 y 6 proyectos.
+
+Para cada proyecto necesito:
+- título
+- año
+- problema
+- qué hice específicamente yo
+- herramientas o métodos
+- resultado
+- 3–5 keywords
+- enlace si existe
+- imagen si existe
+
+EXPERIENCE
+Para cada experiencia:
+- fechas
+- rol
+- organización
+- ubicación
+- 1–2 frases describiendo mi contribución
+
+SKILLS
+Organiza mis habilidades en categorías.
+
+Por ejemplo:
+
+Programming
+Research
+Design
+Data
+Communication
+
+CONTACT
+Necesito actualizar:
+- email
+- LinkedIn
+- GitHub
+- otras redes profesionales
+- CV
+
+Cuando tengas esta información:
+
+1. Propón el contenido final antes de cambiarlo.
+2. No inventes experiencias, premios, publicaciones, universidades, resultados o habilidades.
+3. Si falta información, pregúntame.
+4. Mantén los textos breves y adecuados para un portfolio.
+5. Prioriza evidencia concreta sobre adjetivos.
+6. No llenes el website con texto innecesario.
+7. Conserva el diseño responsive.
+8. No elimines funcionalidades existentes sin preguntarme.
+9. Mantén HTML y CSS simples y fáciles de editar.
+10. Antes de terminar, revisa que no queden textos de ejemplo de la plantilla.
+```
+
+---
+
+# Prompt para editar una sección específica
+
+Si no quieres modificar todo el website, puedes pedir cambios únicamente en una sección.
+
+Por ejemplo:
+
+### Hero
+
+```text
+Revisa únicamente la sección HERO de index.html.
+
+No cambies todavía el diseño.
+
+Quiero adaptar el contenido a mi perfil profesional.
+
+Ayúdame primero a definir:
+
+- 3–5 keywords
+- headline de máximo 12 palabras
+- introducción de 30–50 palabras
+- botones principales
+- redes profesionales que debería mostrar
+
+Hazme las preguntas necesarias.
+
+No inventes información sobre mí.
+
+Cuando aprobemos el texto, actualiza únicamente esa sección del HTML.
+```
+
+---
+
+### About
+
+```text
+Quiero editar únicamente la sección ABOUT de mi portfolio.
+
+Mantén el diseño actual.
+
+Ayúdame a escribir un texto de entre 50 y 100 palabras que explique:
+
+- quién soy
+- mi formación
+- mis áreas principales
+- qué tipo de problemas me interesa resolver
+- hacia dónde quiero orientar mi carrera
+
+No repitas literalmente el Hero.
+
+Evita palabras genéricas como passionate, motivated, innovative o hard-working si no aportan información.
+
+Primero propón el texto.
+
+No modifiques el código hasta que lo apruebe.
+```
+
+---
+
+### Education
+
+```text
+Quiero actualizar únicamente la sección EDUCATION.
+
+Mantén el formato de timeline existente.
+
+Te voy a dar mi información académica.
+
+Para cada experiencia utiliza:
+
+YEAR – YEAR
+DEGREE / PROGRAM
+UNIVERSITY / INSTITUTION
+CITY, COUNTRY
+OPTIONAL DESCRIPTION
+
+La descripción debe tener máximo 1–2 frases y solo debe aparecer si explica algo relevante como:
+
+- especialización
+- tesis
+- scholarship
+- research focus
+- academic distinction
+
+No inventes información.
+
+Después actualiza las cards o entradas existentes sin cambiar el estilo visual.
+```
+
+---
+
+### Projects
+
+```text
+Quiero actualizar únicamente la sección PROJECTS de mi portfolio.
+
+No quiero una lista de todo lo que he hecho.
+
+Ayúdame a seleccionar entre 3 y 6 proyectos que mejor demuestren mis capacidades.
+
+Para cada proyecto utiliza esta estructura:
+
+PROJECT TITLE
+
+ROLE / AREA / YEAR
+
+Breve descripción del problema.
+
+Qué hice específicamente yo.
+
+Resultado o impacto, si existe.
+
+3–5 keywords.
+
+Link.
+
+Cada card debe poder entenderse rápidamente.
+
+No inventes métricas, resultados ni tecnologías.
+
+No utilices frases genéricas como:
+"This innovative project leverages cutting-edge AI."
+
+Prefiere descripciones concretas.
+
+Una vez definido el contenido, actualiza las cards existentes manteniendo el diseño actual.
+```
+
+---
+
+### Experience
+
+```text
+Quiero editar únicamente la sección EXPERIENCE.
+
+Para cada experiencia incluye:
+
+YEAR – YEAR
+ROLE
+ORGANIZATION
+LOCATION
+1–2 frases sobre mi contribución
+
+No copies todas las responsabilidades de mi CV.
+
+Prioriza las experiencias relacionadas con el objetivo de mi website.
+
+Mantén el timeline y los estilos actuales.
+```
+
+---
+
+### Skills
+
+```text
+Quiero reorganizar la sección SKILLS.
+
+No quiero una lista enorme de tecnologías.
+
+Ayúdame a agrupar mis habilidades en categorías coherentes.
+
+Por ejemplo:
+
+Programming
+AI & Data
+Research
+Design
+Communication
+
+Incluye únicamente habilidades que realmente pueda demostrar mediante mis proyectos, estudios o experiencia.
+
+Después modifica únicamente esta sección.
+```
+
+---
+
+# Prompt para cambiar el diseño sin destruir la plantilla
+
+Si quieres cambiar colores, tipografías o componentes, utiliza un prompt específico.
+
+```text
+Quiero mejorar el diseño visual de este portfolio sin reconstruirlo desde cero.
+
+Conserva:
+
+- estructura HTML
+- contenido
+- responsive design
+- navegación
+- secciones
+- enlaces
+- funcionalidad
+
+Puedes mejorar:
+
+- tipografía
+- paleta de colores
+- spacing
+- botones
+- borders
+- cards
+- hierarchy
+- hover states
+
+Quiero un diseño:
+
+- limpio
+- profesional
+- editorial
+- moderno
+- fácil de leer
+- con suficiente espacio en blanco
+
+Evita:
+
+- gradients innecesarios
+- glow effects
+- glassmorphism excesivo
+- animaciones llamativas
+- estética genérica de website generado por AI
+- demasiados border-radius
+- sombras fuertes
+- demasiados colores
+
+Antes de modificar el CSS:
+
+1. analiza la paleta actual
+2. analiza la tipografía
+3. identifica 5 mejoras concretas
+4. explícame qué cambiarías
+
+Después espera mi aprobación.
+```
+
+---
+
+# Prompt para adaptar el website a una referencia visual
+
+También puedes mostrarle una captura de Pinterest, Behance, Figma, Awwwards u otro website.
+
+Utiliza este prompt:
+
+```text
+Quiero utilizar esta imagen únicamente como REFERENCIA VISUAL para mejorar mi portfolio.
+
+No quiero copiarla exactamente.
+
+Analiza:
+
+- typography
+- hierarchy
+- spacing
+- grid
+- navigation
+- buttons
+- cards
+- color palette
+- visual rhythm
+
+Después identifica qué principios visuales podemos trasladar a mi website actual.
+
+IMPORTANTE:
+
+No reconstruyas el website desde cero.
+
+Trabaja sobre los archivos existentes.
+
+Conserva el contenido y las secciones actuales.
+
+Antes de modificar código explícame qué elementos tomarías como inspiración y cuáles no.
+```
+
+---
+
+# Prompt para revisar el website antes de publicarlo
+
+Cuando termines de editarlo, copia este prompt:
+
+```text
+Haz una revisión final de este portfolio antes de publicarlo.
+
+Revisa todos los archivos.
+
+Comprueba:
+
+CONTENT
+- que no queden textos placeholder
+- que no haya información inventada
+- que títulos y descripciones sean consistentes
+- que los proyectos expliquen claramente mi contribución
+
+LINKS
+- navegación
+- botones
+- LinkedIn
+- GitHub
+- email
+- CV
+- links de proyectos
+
+HTML
+- estructura semántica
+- alt text
+- headings
+- enlaces
+- accesibilidad básica
+
+CSS
+- responsive design
+- mobile
+- desktop
+- spacing
+- overflow
+- tamaños de texto
+
+UX
+- que mi perfil se entienda rápidamente
+- que mi mejor proyecto sea fácil de encontrar
+- que sea fácil contactarme
+- que el CV sea fácil de descargar
+
+PERFORMANCE
+- imágenes demasiado grandes
+- archivos innecesarios
+- recursos que puedan optimizarse
+
+No hagas cambios todavía.
+
+Primero dame una checklist indicando:
+
+PASS
+WARNING
+FIX
+
+Después pregúntame si quiero que implementes las correcciones.
+```
+
+---
+
+# Regla importante al utilizar AI
+
+Claude, Codex u otros asistentes pueden ayudarte a escribir y modificar el website, pero **tú debes controlar el contenido**.
+
+Nunca permitas que la herramienta invente:
+
+```text
+publications
+awards
+research results
+companies
+universities
+scholarships
+job titles
+project metrics
+programming skills
+conference presentations
+```
+
+Si algo no existe, no debería aparecer en tu portfolio.
+
+Un buen portfolio no necesita parecer impresionante en cada línea.
+
+Necesita ser **claro, verificable y fácil de entender**.
+
 1. Crea un repositorio en GitHub.
 2. Sube el contenido de esta carpeta.
 3. Abre **Settings → Pages**.
